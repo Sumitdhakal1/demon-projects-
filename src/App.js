@@ -5,6 +5,8 @@ import Home from './pages/home';
 import Header from './components/header';
 import About from './components/about';
 import Menu from './components/menu';
+import Reserv from './components/reserv';
+import Gallery from './components/gallery';
 import Sidebar from './components/sidebar';
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 function App() {
@@ -18,6 +20,8 @@ function App() {
       <Header/>
       <About/>
       <Menu/>
+      <Reserv/>
+      <Gallery/>
       <Routes>
         {/* <Route path="/" exact element={<Home />}/>  */}
       </Routes>

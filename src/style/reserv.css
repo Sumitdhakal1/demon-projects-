@@ -1,0 +1,71 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+ul, Link {
+  list-style: none;
+  text-transform: capitalize;
+}
+
+img {
+  width: 100%;
+  display: block;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+a {
+  text-decoration: none;
+}
+
+.container {
+  width: 75%;
+  margin: 0 auto;
+}
+
+.reserve {
+  position: relative;
+}
+.reserve .image .img {
+  background: rgba(17, 22, 24, 0.75);
+}
+.reserve .reservation_details-wrapper {
+  position: absolute;
+  bottom: 0;
+  margin-bottom: 5rem;
+  margin-left: 6rem;
+}
+.reserve .reservation_details-wrapper .reservation_details-all {
+  display: flex;
+  align-items: center;
+  gap: 6rem;
+}
+.reserve .reservation_details-wrapper .reservation_details-all .reservation-text {
+  flex-basis: 70%;
+  max-width: 500px;
+  color: white;
+}
+.reserve .reservation_details-wrapper .reservation_details-all .reservation-table {
+  margin-left: 10rem;
+}
+.reserve .reservation_details-wrapper .reservation_details-all .reservation-table .reservation-details {
+  display: grid;
+  gap: 1rem;
+  background: white;
+  padding: 3rem 3rem;
+}
+.reserve .reservation_details-wrapper .reservation_details-all .reservation-table .reservation-details input {
+  height: 2rem;
+  width: 20rem;
+}
+.reserve .reservation_details-wrapper .reservation_details-all .reservation-table .reservation-details button {
+  margin-left: 5rem;
+  width: 10rem;
+  background-color: red;
+  color: white;
+  border: none;
+  font-size: 0.9rem;
+  padding: 10px;
+}/*# sourceMappingURL=reserv.css.map */

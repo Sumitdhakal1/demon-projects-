@@ -1,0 +1,55 @@
+@import "variables.scss";
+
+.reserve{
+    position: relative;
+    .image{
+        .img{
+      background: rgba(17,22,24,0.75);}
+     
+    }
+    .reservation_details-wrapper{
+       position: absolute;
+       bottom: 0;
+      margin-bottom: 5rem;
+      margin-left: 6rem;
+      
+       .reservation_details-all{
+        display: flex;
+        align-items: center;
+        gap: 6rem;
+        
+        .reservation-text{
+            flex-basis: 70%;
+            max-width: 500px;
+            color: white;
+        }
+        .reservation-table{
+            
+            margin-left: 10rem;
+             
+            .reservation-details{
+               
+                display: grid;
+                gap: 1rem;
+                background: white;
+                padding: 3rem 3rem;
+               
+                input{
+                    height: 2rem;
+                   width: 20rem;
+
+                }
+                button{
+                    margin-left: 5rem;
+                    width: 10rem;
+                    background-color: red;
+                    color: white;
+                    border: none;
+                    font-size: 0.9rem;
+                    padding: 10px;
+                }
+            }
+        }
+       }
+    }
+}
