@@ -1,0 +1,38 @@
+@import"variables.scss";
+
+.header{
+    position: relative;
+    .image{
+        height: 100vh;
+    }
+    .header_text{
+        max-width: 500px;
+     position: absolute;
+     bottom: 0;
+     margin-bottom: 14rem;
+     color: white;
+
+     h5{
+        font-size: 14px;
+     }
+
+     h1{
+        margin-block: 20px;
+        font-size: 60px;
+        font-weight: 700;
+     }
+
+     p{
+        max-width: 515px;
+        margin-bottom: 3rem;
+     }
+     .button_menu{
+        font-size: 14px;
+        font-weight: 600;
+        padding: 15px 30px;
+        background: red;
+        text-transform: uppercase;
+        color: white;
+     }
+    }
+}

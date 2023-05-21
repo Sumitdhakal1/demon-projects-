@@ -1,0 +1,60 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+ul, Link {
+  list-style: none;
+  text-transform: capitalize;
+}
+
+img {
+  width: 100%;
+  display: block;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+a {
+  text-decoration: none;
+}
+
+.container {
+  width: 75%;
+  margin: 0 auto;
+}
+
+.header {
+  position: relative;
+}
+.header .image {
+  height: 100vh;
+}
+.header .header_text {
+  max-width: 500px;
+  position: absolute;
+  bottom: 0;
+  margin-bottom: 14rem;
+  color: white;
+}
+.header .header_text h5 {
+  font-size: 14px;
+}
+.header .header_text h1 {
+  margin-block: 20px;
+  font-size: 60px;
+  font-weight: 700;
+}
+.header .header_text p {
+  max-width: 515px;
+  margin-bottom: 3rem;
+}
+.header .header_text .button_menu {
+  font-size: 14px;
+  font-weight: 600;
+  padding: 15px 30px;
+  background: red;
+  text-transform: uppercase;
+  color: white;
+}/*# sourceMappingURL=header.css.map */

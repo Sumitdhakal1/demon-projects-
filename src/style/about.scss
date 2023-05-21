@@ -1,0 +1,33 @@
+@import "variables.scss";
+
+.about {
+    padding-block: 120px;
+
+      .about_wrapper {
+        display: flex;
+        align-items: center;
+        gap:6rem;
+
+        .about_detail {
+            flex-basis: 50%;
+
+          p{
+            margin: 20px 0;
+            margin-bottom: 3rem;
+          }
+          .button_view{
+            
+            background: red;
+            padding: 15px 30px;
+            color: white;
+
+          }
+        }
+
+        .image {
+            flex-basis: 50%;
+
+        }
+    }
+
+}

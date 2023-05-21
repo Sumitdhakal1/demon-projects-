@@ -1,23 +1,29 @@
-import logo from './logo.svg';
+import React,{useState} from 'react';
 import './App.css';
-
+import Topbar from './components/topbar';
+import Home from './pages/home';
+import Header from './components/header';
+import About from './components/about';
+import Menu from './components/menu';
+import Sidebar from './components/sidebar';
+import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 function App() {
+  const [openNav, setOpenNav] = React.useState(false);
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Router>
+      <Topbar setOpenNav={setOpenNav}/>
+      
+      {openNav && <Sidebar setOpenNav={setOpenNav} />}
+      <Header/>
+      <About/>
+      <Menu/>
+      <Routes>
+        {/* <Route path="/" exact element={<Home />}/>  */}
+      </Routes>
+      </Router>
+      
+      
     </div>
   );
 }
