@@ -1,5 +1,7 @@
 import React, { useState } from 'react'
 import "../style/menu.css"
+import Tab from './tab';
+
 const Menu = () => {
 
     const [toogletabs, setToogletabs] = useState(1);
@@ -8,7 +10,7 @@ const Menu = () => {
         setToogletabs(id)
     }
     return (
-       
+
         <div className="menu_section">
             <div className="container">
                 <div className="menu_heading">
@@ -17,14 +19,8 @@ const Menu = () => {
                         <p>Who are in extremely love with eco friendly system.</p>
                     </div>
                 </div>
-                <ul>
-                    <li onClick={() => toogle(1)} className={`${toogletabs === 1 && "active" }`} >All Menu</li>
-                    <li onClick={() => toogle(2)} className={`${toogletabs === 2 && "active" }`} >Breakfast</li>
-                    <li onClick={() => toogle(3)} className={`${toogletabs === 3 && "active"}`}>Lunch</li>
-                    <li onClick={() => toogle(4)} className={`${toogletabs === 4 && "active"}`}>Dinner</li>
-                    <li onClick={() => toogle(5)} className={`${toogletabs === 5 && "active"}`} >Budget Meal</li>
-                    <li onClick={() => toogle(6)} className={`${toogletabs === 6 && "active"}`}>Buffet</li>
-                </ul>
+                <Tab menus={["All Menu", "Breakfast", "Lunch", "Dinner", "Budget Meal", "Buffer"]} activeTab={toogletabs} toogle={toogle} />
+
                 <div className={toogletabs === 1 ? "show-items" : "container-items"}>
                     <div className='items'>
                         <div className="item">

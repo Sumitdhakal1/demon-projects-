@@ -4,6 +4,7 @@ const Reserv = () => {
     return (
      <div className="reserve">
          <div className="image">
+            <div className="bg_color"></div>
             <img src="assets/reservation-bg.jpg.webp" alt="" />
          </div>
         <div className="container"></div>

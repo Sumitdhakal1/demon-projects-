@@ -7,6 +7,7 @@ import About from './components/about';
 import Menu from './components/menu';
 import Reserv from './components/reserv';
 import Gallery from './components/gallery';
+import Review from './components/review';
 import Sidebar from './components/sidebar';
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 function App() {
@@ -22,6 +23,7 @@ function App() {
       <Menu/>
       <Reserv/>
       <Gallery/>
+      <Review/>
       <Routes>
         {/* <Route path="/" exact element={<Home />}/>  */}
       </Routes>

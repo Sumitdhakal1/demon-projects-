@@ -28,13 +28,20 @@ a {
 .reserve {
   position: relative;
 }
-.reserve .image .img {
-  background: rgba(17, 22, 24, 0.75);
+.reserve .image {
+  height: 100vh;
+}
+.reserve .bg_color {
+  background: rgba(0, 0, 0, 0.75);
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 100%;
 }
 .reserve .reservation_details-wrapper {
   position: absolute;
   bottom: 0;
-  margin-bottom: 5rem;
+  margin-bottom: 9rem;
   margin-left: 6rem;
 }
 .reserve .reservation_details-wrapper .reservation_details-all {

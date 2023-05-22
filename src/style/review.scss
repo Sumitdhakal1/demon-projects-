@@ -1,0 +1,52 @@
+@import "variables.scss";
+
+.review_section {
+  position: relative;
+
+  .image {
+    height: 60vh;
+  }
+
+  .details_wrapper {
+    position: absolute;
+    bottom: 0;
+    margin-bottom:6rem;
+    display: grid;
+    justify-content: center;
+width: 80%;   
+    color: black;
+    .user_image{
+      background: white;
+      border: 1px solid black;
+      padding: 11px;
+      border-radius: 70%;
+      width: 3.5rem;
+     margin-left: 3.3rem;
+  }
+  .star_icon{
+    display: flex;
+    margin-left: 2rem;
+    color: gold;
+    fill: gold;
+    font-size: 1.5rem;
+  }
+     .text{
+      p{
+        margin-left: 2rem;
+      }
+     }
+
+     ul{
+      display: flex;
+      margin-top: 2rem;
+      li{
+        margin-left: 1.5rem;
+        color: rgb(198, 154, 154);
+
+        .actives{
+          color: red;
+        }
+      }
+     }
+  }
+}
