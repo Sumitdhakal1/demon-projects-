@@ -13,6 +13,7 @@
     margin-bottom:6rem;
     display: grid;
     justify-content: center;
+    
 width: 80%;   
     color: black;
     .user_image{
@@ -21,17 +22,22 @@ width: 80%;
       padding: 11px;
       border-radius: 70%;
       width: 3.5rem;
-     margin-left: 3.3rem;
+      margin-left: 14rem;
   }
   .star_icon{
     display: flex;
-    margin-left: 2rem;
+    margin-left: 12.7rem;
     color: gold;
     fill: gold;
     font-size: 1.5rem;
   }
      .text{
+      h1{
+        font-size: 20px;
+        margin-left: 12.5rem;
+      }
       p{
+        white-space: nowrap;
         margin-left: 2rem;
       }
      }
@@ -39,13 +45,15 @@ width: 80%;
      ul{
       display: flex;
       margin-top: 2rem;
+      margin-left: 12.7rem;
+      gap: 1.5rem;
       li{
-        margin-left: 1.5rem;
+      
         color: rgb(198, 154, 154);
-
-        .actives{
+        &.active{
           color: red;
         }
+
       }
      }
   }

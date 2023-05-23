@@ -46,26 +46,32 @@ a {
   padding: 11px;
   border-radius: 70%;
   width: 3.5rem;
-  margin-left: 3.3rem;
+  margin-left: 14rem;
 }
 .review_section .details_wrapper .star_icon {
   display: flex;
-  margin-left: 2rem;
+  margin-left: 12.7rem;
   color: gold;
   fill: gold;
   font-size: 1.5rem;
 }
+.review_section .details_wrapper .text h1 {
+  font-size: 20px;
+  margin-left: 12.5rem;
+}
 .review_section .details_wrapper .text p {
+  white-space: nowrap;
   margin-left: 2rem;
 }
 .review_section .details_wrapper ul {
   display: flex;
   margin-top: 2rem;
+  margin-left: 12.7rem;
+  gap: 1.5rem;
 }
 .review_section .details_wrapper ul li {
-  margin-left: 1.5rem;
   color: rgb(198, 154, 154);
 }
-.review_section .details_wrapper ul li .actives {
+.review_section .details_wrapper ul li.active {
   color: red;
 }/*# sourceMappingURL=review.css.map */

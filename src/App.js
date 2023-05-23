@@ -8,6 +8,8 @@ import Menu from './components/menu';
 import Reserv from './components/reserv';
 import Gallery from './components/gallery';
 import Review from './components/review';
+import Blog from './components/blog';
+import Footer from './components/footer';
 import Sidebar from './components/sidebar';
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 function App() {
@@ -24,6 +26,8 @@ function App() {
       <Reserv/>
       <Gallery/>
       <Review/>
+      <Blog/>
+      <Footer/>
       <Routes>
         {/* <Route path="/" exact element={<Home />}/>  */}
       </Routes>
